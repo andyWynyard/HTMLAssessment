@@ -2,9 +2,127 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>HTML Assessment</title>
+    <style>
+
+            th, td {
+                border: 1px solid pink;
+                padding: 10px;
+                min-width: 100px;
+            }
+        </style>
   </head>
   <body>
+    <h1>TEXT</h1>
+    <p>
+      <strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <blockquote><em><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></blockquote>
+    <p>
+      <strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <h1>TABLE</h1>
+    <table>
+
+    <tr>
+      <th>Team Name</th>
+        <th colspan="2">First Half</th>
+        <th colspan="2">Second Half</th>
+
+    </tr>
+    <tr>
+      <th>There are no "Q's" in Rugby!</th>
+        <th>Q1</th>
+        <th>Q2</th>
+        <th>Q3</th>
+        <th>Q4</th>
+
+    </tr>
+    <tr>
+        <td>All Blacks (NZ)</td>
+        <td>Lost Count</td>
+        <td>Lost Count</td>
+        <td>Lost Count</td>
+        <td>Lost Count</td>
+    </tr>
+    <tr>
+        <td>Wallabies (Aus)</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+
+</table>
+
+<h1>LIST</h1>
+  <ul>
+    <li><img src="https://cdn.talksport.com/talksport/clubs/all-blacks.png"><br><a href="www.allblacks.com">All Blacks</a></li>
+    <ul>
+      <li>Coach: Steve Hansen</li>
+      <li>Captain: Kieran Read</li>
+      <li>Notable Players</li>
+      <ol>
+        <li>Christian Cullen</li>
+        <li>Richie McCaw</li>
+        <li>Dan Carter</li>
+
+      </ol>
+    </ul>
+    <li><img src="http://www.rugby.com.au/-/media/competitions/2016/rugby-championship/wallabies/crest-wallabies.ashx?mw=30&hash=BCA8B6372D1B89584791F26553BA29699C92D9D8"><br><a href="http://www.rugby.com.au/teams/wallabies">Wallabies</a></li>
+    <ul>
+      <li>Coach: Michael Cheika</li>
+      <li>Captain: Stephen Moore</li>
+      <li>Notable Players</li>
+      <ol>
+        <li>None</li>
+      </ol>
+    </ul>
+  </ul>
+
+  <h1>FORM</h1>
+  <form>
+    First name: <input type="text" name="firstname">
+    Last name: <input type="text" name="lastname"><br>
+    Favorite Sport (There will only ever be one) :
+    <select name="Favorite Sport:">
+      <option value="Rugby">Rugby</option>
+      <option value="Rugby">Rugby</option>
+      <option value="Rugby">Rugby</option>
+      <option value="Rugby">Rugby</option>
+      <option value="Rugby">Rugby</option>
+      <option value="Rugby">Rugby</option>
+      <option value="Rugby">Rugby</option>
+      <option value="Rugby">Rugby</option>
+      <option value="Rugby">Rugby</option>
+      <option value="Rugby">Rugby</option>
+      <option value="Rugby">Rugby</option>
+      <option value="Rugby">Rugby</option>
+      <option value="Rugby">Rugby</option>
+    </select>
+    I have:
+    <input type="checkbox" name="Attended" value="Attended">Attended
+    <input type="checkbox" name="Played" value="Played">Played
+    <input type="checkbox" name="Coached" value="Coached">Coached
+    <input type="checkbox" name="Bet on" value="Bet on">Bet on
+    <br>
+    ... this sport.<br>
+    For this sport I prefer:
+    <input type="radio" name="" value="">Amateur
+    <input type="radio" name="" value="">Pro
+    <input type="radio" name="" value="">Provincial
+    <input type="radio" name="" value="">Super Series
+    <br>
+    <input type="submit">
+    <br>
+    <br>
+
+
+
+  </form>
 
   </body>
+  <footer>
+    <center>This page is copyright 2017 Global Corp</center>
+  </footer>
 </html>
