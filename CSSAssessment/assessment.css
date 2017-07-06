@@ -1,0 +1,112 @@
+
+html {
+  width: auto;
+  position: relative;
+  background-attachment: fixed;
+}
+
+html::after {
+  content: "";
+  background: url(http://res.cloudinary.com/simpleview/image/upload/v1473250473/clients/norway/northern_lights_lyngenfjord_northern_norway_nav_d3ffe4a3-bde9-4ffa-8a1c-a42b84c60681.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-attachment: fixed;
+  z-index: -1;
+
+}
+
+body {
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+
+
+/*html {
+  background-image: url(http://static4.businessinsider.com/image/522960c76bb3f796278b4569/peyton-manning-ties-nfl-record-with-7-touchdown-passes-in-a-single-game.jpg);
+  backopacity: 0.3;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}*/
+
+
+.subjectHeader {
+  color: #A8E875;
+  font-size: 1.5em;
+
+}
+
+#scoreBoard {
+  border: 2px solid #7772ff;
+  text-align: center;
+}
+
+blockquote {
+  background-color: #222;
+  color: hotpink;
+  padding: 2px;
+}
+
+table {
+  width: 100%;
+}
+
+thead {
+  font-weight: bold;
+  color: #ffbb00;
+}
+td, th {
+  min-width: 100px;
+  border: 1px solid #F5F5F5;
+}
+ul > li{
+  list-style-type: square;
+}
+
+#checkbox-grid > li{
+  list-style-type: none;
+}
+
+.hyperLink {
+  text-decoration: none;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
+#teamRoster {
+  margin-left: 200px;
+}
+
+
+#teamRoster > li:first-child {
+  text-shadow: 2px 2px 2px #fff;
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg);
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#teamRoster > li:last-child {
+  text-shadow: 2px 2px 2px #fff;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg);
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
